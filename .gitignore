@@ -25,3 +25,4 @@ npm-debug.log*
 
 # Cursor agent artifacts (may contain credentials)
 .cursor/
+.vscode/
