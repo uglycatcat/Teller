@@ -25,8 +25,9 @@
 
 ```
 docs/grill/sessions/cursor-for-writers/
-  README.md          ← 本文件
-  grill-log.md       ← 问答过程
-  CONTEXT.md         ← 本会话术语表（可合并到根 CONTEXT）
-  adr/               ← 本会话 ADR
+  README.md                  ← 本文件
+  2026-08-07-session.md      ← 早期问答（Q1–Q12）
+  grill-log.md               ← 续场问答（Q1–Q4）
+  CONTEXT.md                 ← 本会话术语表（可合并到根 CONTEXT）
+  adr/                       ← 本会话 ADR
 ```

@@ -2,7 +2,7 @@
 
 ## 开场
 
-已通读根 `CONTEXT.md`、ADR 0001–0066、以及 `docs/grill-cursor-for-writing/` 中已拍板的 Agent / 无幽灵补全 / 写作规则。本会话只问**文档里尚未钉死**、且对「写作版 Cursor」分叉大的题。产出隔离于本目录。
+已通读根 `CONTEXT.md`、ADR 0001–0066、以及 `docs/grill/sessions/cursor-for-writers/` 中已拍板的 Agent / 无幽灵补全 / 写作规则。本会话只问**文档里尚未钉死**、且对「写作版 Cursor」分叉大的题。产出隔离于本目录。
 
 ### 明确不再重问（已有结论）
 
@@ -70,7 +70,7 @@
 
 ## Q3（已撤回）— 每部作品的 AI 会话是一条还是多条
 
-**撤回原因：** 根 `CONTEXT.md`「AI 面板」与 ADR `0068-multiple-ai-sessions-per-work.md`、以及 `docs/grill-cursor-for-writing` Q5 已拍板：**每部作品多条会话**（新建/切换/归档）。再问无增量。
+**撤回原因：** 根 `CONTEXT.md`「AI 面板」与 ADR `0068-multiple-ai-sessions-per-work.md`、以及 `docs/grill/sessions/cursor-for-writers` Q5 已拍板：**每部作品多条会话**（新建/切换/归档）。再问无增量。
 
 ### 同步：文档里已定、本场不再重问（增补）
 
@@ -118,4 +118,6 @@
 
 **推荐：** B。不同书的资料卡字段差很大，作品级模板跟目录走更贴「文件夹即作品」；全局模板容易变成第二套设置噪音。
 
-**用户回答：** （待填）
+**用户回答：** B（2026-08-25 补答）
+
+**沉淀：** 新建模板支持**作品级自定义**：每部作品可有自己的章节模板与设定模板文稿（存作品目录元数据区，如 `.teller/templates/`）；新建时优先用作品模板，缺省回退内置模板。不做应用级全局模板编辑。
