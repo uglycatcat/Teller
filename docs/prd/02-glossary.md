@@ -2,7 +2,7 @@
 
 本文档是 Teller 的权威术语表：每个概念给出精确定义、关键规则，以及「规避清单」（_Avoid_，代表刻意不做的行为）。规避清单与正向需求同等重要，实现时须一并遵守。
 
-> 说明：标注「（本会话增量/修订）」的条目来自 `full-product-refinement` 会话，覆盖或修订了根 `CONTEXT.md` 的对应定义。
+> 说明：标注「（本会话增量/修订）」的条目来自 `full-product-refinement` 会话，覆盖或修订了 `docs/history/CONTEXT.md` 的对应定义。
 
 ---
 

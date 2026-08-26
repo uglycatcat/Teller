@@ -1,10 +1,10 @@
 # 12 决策索引（ADR 映射）
 
-本文档是 Teller 全部架构决策记录（ADR）的索引，并映射到本 PRD 的对应章节。决策来源分两类：根 `docs/adr/`（72 份，历史决策）与本会话 `docs/grill/sessions/full-product-refinement/adr/`（18 份，Q68–Q95 增量）。
+本文档是 Teller 全部架构决策记录（ADR）的索引，并映射到本 PRD 的对应章节。决策来源分两类：根 `docs/history/adr/`（72 份，历史决策）与本会话 `docs/history/grill/sessions/full-product-refinement/adr/`（18 份，Q68–Q95 增量）。
 
 ---
 
-## 12.1 根 ADR 索引（docs/adr/）
+## 12.1 根 ADR 索引（docs/history/adr/）
 
 | 编号 | 主题 | 归属章节 | 状态 |
 |---|---|---|---|
@@ -106,6 +106,10 @@
 | 0017 | frontmatter 状态 + 常用字段 | 03 |
 | 0018 | 仅 Windows 安装包，手动更新 | 10 |
 | 0019 | 新建模板作品级自定义 | 05 |
+| 0020 | 视觉基调：写作视觉 + 暖色调 | 13 |
+| 0021 | 字体：UI 微软雅黑 + 正文衬线 | 13 |
+| 0022 | 布局可拖拽 + 轻量动效 + 流式光标 | 13 |
+| 0023 | 状态反馈与特定界面视觉 | 13 |
 
 ---
 
@@ -119,4 +123,4 @@
 | ADR 0049/0062 未定义章节状态与 frontmatter | 新增章节状态（frontmatter 三态）与常用字段 |
 | README「以 Windows 桌面创作为主」 | 明确为「仅 Windows」 |
 
-> 合并时需同步更新根 `CONTEXT.md` 的「快照」「字数统计」「应用设置」定义，以及上述旧 ADR 的正文标注。
+> 合并时需同步更新 `docs/history/CONTEXT.md` 的「快照」「字数统计」「应用设置」定义，以及上述旧 ADR 的正文标注。

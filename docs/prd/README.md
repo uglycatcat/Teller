@@ -3,9 +3,9 @@
 本目录是 Teller 的一套完整、结构化产品需求文档组，整合自以下源文档：
 
 - `README.md` — 项目定位与开发须知
-- `CONTEXT.md` — 产品模型主文档（30+ 概念定义 + 规避清单）
-- `docs/adr/` — 72 份架构决策记录（ADR）
-- `docs/grill/` — 多场 grill 问答记录，含 `sessions/full-product-refinement/`（Q68–Q95 增量，含快照→git、章节状态、AI 细节等）
+- `docs/history/CONTEXT.md` — 产品模型主文档（30+ 概念定义 + 规避清单）
+- `docs/history/adr/` — 72 份架构决策记录（ADR）
+- `docs/history/grill/` — 多场 grill 问答记录，含 `sessions/full-product-refinement/`（Q68–Q95 增量，含快照→git、章节状态、AI 细节等）
 
 ## 文档组结构（建议按序阅读）
 
@@ -23,9 +23,10 @@
 | 10 | settings-platform.md | 设置、主题、跨平台、分发、隐私 |
 | 11 | non-functional.md | 性能、安全、可靠性、本地优先 |
 | 12 | adr-index.md | 决策记录索引（源 ADR + 本会话 ADR 映射） |
+| 13 | art-and-interaction.md | 视觉语言、字体、动效、状态反馈、特定界面 |
 
 ## 约定
 
 - 本文档组描述的是**完整产品形态**（PRD 范围），不按迭代切片；某功能的具体交付迭代另议。
-- 冲突优先级：**本 PRD**（含 `full-product-refinement` 会话增量）> 根 `CONTEXT.md` > 旧 ADR。
+- 冲突优先级：**本 PRD**（含 `full-product-refinement` 会话增量）> `docs/history/CONTEXT.md` > 旧 ADR。
 - 每篇文档中的「规避清单」来自源文档的 `_Avoid_` 项，代表「刻意不做的行为」，与正向需求同等重要。
